@@ -1,0 +1,27 @@
+{
+  "name": "sonos-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "keywords": [
+    "sonos",
+    "youtube",
+    "player",
+    "vlc",
+    "music",
+    "audio",
+    "video"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "playlist": "node load.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fluent-ffmpeg": "^2",
+    "google-spreadsheet": "^2",
+    "sonos": "^1",
+    "ytdl-core": "^2"
+  }
+}
