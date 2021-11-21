@@ -21,6 +21,15 @@ You will need googlesheets `url` and sheet's `title`.
 
 \* Please verify the sonos ip discovered by this. It is occasionally wrong. Enter an invalid ip if you don't want to add links to Sonos playlist.
 
+## Authentication
+Follow instructions in https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication?id=service-account to set up Service Account, and download json credentials file.
+
+Copy this JSON file under this app's root directory, and rename it as `gdrive-auth.json`.
+
+```
+$ mv /path-to/somename-zzzz-yyy.json ./gdrive-auth.json
+```
+
 # Running server
 
 ```bash

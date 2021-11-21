@@ -20,7 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "fluent-ffmpeg": "^2",
-    "google-spreadsheet": "^2",
+    "google-spreadsheet": "^3",
     "sonos": "^1",
     "ytdl-core": "^4"
   }
